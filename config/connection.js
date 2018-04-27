@@ -3,8 +3,8 @@ var mysql = require('mysql')
 var config = mysql.createConnection({
   host: '127.0.0.1',
   user: 'root',
-  password: 'sequelstuff1234',
-  database: 'quotes_db',
+  password: 'root',
+  database: 'burgers_db',
   port: 8889
 })
 
